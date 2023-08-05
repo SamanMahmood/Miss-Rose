@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: navajowhite;
+  height: 70px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+nav ul li {
+  list-style: none;
+  margin: 1rem;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.7rem;
+}
+nav ul li a:hover {
+  color: rgb(61, 59, 59);
+}
+.container {
+  height: 95vh;
+  width: 100%;
+  background-image: url("makeup.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container p {
+  padding: 15% 10%;
+  font-size: 1.3rem;
+}
+.product {
+  height: 350px;
+  width: 100%;
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.section {
+  height: 450px;
+  width: 100%;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.sec1 {
+  margin-top: 10%;
+}
+.sec2 {
+  margin-top: 10%;
+}
+.sec3 {
+  margin-top: 10%;
+}
+.sec4 {
+  margin-top: 10%;
+}
+.fa {
+  color: black;
+  margin: 10px;
+  cursor: pointer;
+}
+.Deal-sec {
+  background-color: navajowhite;
+  display: grid;
+  row-gap: 10px;
+  column-gap: 5px;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+}
+.box-sec {
+  width: 10rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: whitesmoke;
+  margin-left: 4rem;
+}
+.deal-sec-deatail {
+  margin-left: 0.7rem;
+  font-size: 0.8rem;
+  color: black;
+}
+.image1 {
+  width: 10rem;
+  height: 10rem;
+  background-image: url("product3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.deal-sec-deatail button {
+  margin-bottom: 6px;
+  padding: 2px;
+  font-size: 0.8rem;
+}
+.image2 {
+  width: 10rem;
+  height: 10rem;
+  background-image: url("p-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image3 {
+  width: 10rem;
+  height: 10rem;
+  background-image: url("p-7.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image4 {
+  width: 10rem;
+  height: 10rem;
+  background-image: url("product4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image5 {
+  width: 10rem;
+  height: 10rem;
+  background-image: url("product1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image6 {
+  width: 10rem;
+  height: 10rem;
+  background-image: url("p-6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image7 {
+  width: 10rem;
+  height: 10rem;
+  background-image: url("p-5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image8 {
+  width: 10rem;
+  height: 10rem;
+  background-image: url("p-10.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image9 {
+  width: 10rem;
+  height: 10rem;
+  background-image: url("p-3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.last-part {
+  height: 600px;
+  width: 100%;
+  font-size: 15px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+.box-1 {
+  height: 200px;
+  width: 20%;
+  margin-top: 10%;
+}
+
+.box-2 {
+  height: 200px;
+  width: 20%;
+  margin-top: 10%;
+}
+.box-2 a {
+  text-decoration: none;
+  color: white;
+}
+.box-3 {
+  height: 200px;
+  width: 20%;
+  margin-top: 10%;
+}
+.box-3 a {
+  text-decoration: none;
+  color: white;
+}
+.box-4 {
+  height: 200px;
+  margin-top: 10%;
+  width: 20%;
+}
+.box-4 > .fa {
+  color: white;
+}
